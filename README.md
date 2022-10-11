@@ -35,15 +35,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 4-5: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 4-6: _Projetos - Playground Functions_
 
-##### Bloco 5: Unix & Bash 
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage 
 
-- [X] 1-1: _Unix & Bash- Part 1_
-- [X] 1-2: _Unix & Bash- Part 2_
+- [ ] 5-1: _JavaScript - DOM e seletores_
+- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [ ] 5-3: _JavaScript - Eventos_
+- [ ] 5-4: _JavaScript - Web Storages_
+- [ ] 5-5: _Projeto - Arte com Pixels_
+- [ ] 5-6: _Projeto Bônus_
 
-##### Bloco 6: Unix & Bash 
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo 
 
-- [X] 1-1: _Unix & Bash- Part 1_
-- [X] 1-2: _Unix & Bash- Part 2_
+- [ ] 6-1: _HTML & CSS - Forms_
+- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [ ] 6-3: _CSS Flexbox - Parte 1_
+- [ ] 6-4: _CSS Flexbox - Parte 2_
+- [ ] 6-5: _CSS Responsivo - Mobile First_
+- [ ] 6-6: _Projeto - Trybewarts_
 
 ##### Bloco 7: Unix & Bash 
 
