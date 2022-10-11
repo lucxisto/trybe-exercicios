@@ -15,7 +15,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 2: Git & GitHub e Internet 
 
-- [ ] 2-1: _Git - O que é e para que serve?_
+- [X] 2-1: _Git - O que é e para que serve?_
 - [ ] 2-2: _Git & GitHub - Entendendo os comandos_
 
 [etc...]
