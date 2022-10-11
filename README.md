@@ -53,12 +53,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _Projeto - Trybewarts_
 
-##### Bloco 7: Unix & Bash 
+##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários 
 
-- [X] 1-1: _Unix & Bash- Part 1_
-- [X] 1-2: _Unix & Bash- Part 2_
+- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [ ] 7-2: _JavaScript ES6 - Fluxo de Exceção e Objetos_
+- [ ] 7-3: _Primeiros passos em Jest_
+- [ ] 7-4: _Projeto - JavaScript Testes Unitários_
 
-##### Bloco 8: Unix & Bash 
+##### Bloco 8: Higher Order Functions do JavaScript ES6 
 
-- [X] 1-1: _Unix & Bash- Part 1_
-- [X] 1-2: _Unix & Bash- Part 2_
+- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destruturing e mais_
+- [ ] 8-6: _Projeto - Zoo Functions_
