@@ -2,7 +2,7 @@
 ### Seção 1 - Unix & Bash
 ##### Dia 1 - Unix & Bash - Parte 1
 
-###### Exercicios do dia
+##### Exercicios do dia
 1 -  Criação de Arquivos e Diretórios
 * Utilizar o Terminal para criar um diretório chamado `unix_tests` utilizando o comando `mkdir`.
 * Criar um arquivo de texto com o nome `trybe.txt` usando o comando `touch`.
