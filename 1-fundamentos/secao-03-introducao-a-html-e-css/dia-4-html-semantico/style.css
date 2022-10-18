@@ -16,7 +16,6 @@ ul{
     width: 200px;
     margin: auto;
 }
-
 .second {
     background-color: rgb(219, 219, 219);
     font-size: 20px;
@@ -25,7 +24,6 @@ ul{
     width: 300px;
     display: inline-block;
 }
-
 .third {
     background-color: rgb(170, 142, 106);
     font-size: 20px;
@@ -33,4 +31,10 @@ ul{
     text-align: center;
     width: 300px;
     display: inline-block;
+}
+h3{
+    text-align: center;
+}
+.prizes li{
+    display: inline;
 }
