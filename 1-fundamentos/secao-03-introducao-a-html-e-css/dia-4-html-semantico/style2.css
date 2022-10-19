@@ -25,8 +25,7 @@ a{
 main{
     width: 75%;
     margin: auto;
-    background-color: #FFFFFF;
-    position: relative;
+
 }
 table{
     margin: auto;
@@ -48,11 +47,10 @@ aside{
     top: 150px;
     z-index: 1;
 }
-
-
-
-
-
 section{
-    border: #000000 solid 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: #000000 solid 1px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
 }
