@@ -5,11 +5,28 @@
 body{
     background-color: #00ffff;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    margin: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+}
+nav ul li{
+    display: inline;
+    text-align: center;
+    margin: 3px;
+}
+a{
+    text-decoration: none;  
 }
 main{
     width: 75%;
     margin: auto;
     background-color: #FFFFFF;
+    position: relative;
 }
 table{
     margin: auto;
@@ -21,7 +38,16 @@ th, td{
 img{
     max-width: 500px;
 }
-
+aside{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+    position: fixed;
+    width: 145px;
+    right: 10px;
+    top: 150px;
+    z-index: 1;
+}
 
 
 
