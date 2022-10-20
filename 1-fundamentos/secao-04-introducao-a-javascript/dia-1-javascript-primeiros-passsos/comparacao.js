@@ -1,7 +1,6 @@
-const a = 279;
+const a = 0;
 const b = 45;
 const c = 500;
-
 
 // if( a > b){
 //   console.log(a + " é maior que " + b);
@@ -9,11 +8,18 @@ const c = 500;
 //   console.log(b + " é maior que " + a);
 // }
 
+// if(a > b && a > c){
+//   console.log(a + ' é o maior número');
+// }else if(b > a && b > c){
+//   console.log(b + ' é o maior número');
+// }else if(c > a  && c > b){
+//   console.log(c + ' é o maior número');
+// }
 
-if(a > b && a > c){
-  console.log(a + ' é o maior número');
-}else if(b > a && b > c){
-  console.log(b + ' é o maior número');
-}else if(c > a  && c > b){
-  console.log(c + ' é o maior número');
+if(a > 0){
+  console.log('positive');
+}else if(a < 0){
+  console.log('negative');
+}else{
+  console.log('zero');
 }
