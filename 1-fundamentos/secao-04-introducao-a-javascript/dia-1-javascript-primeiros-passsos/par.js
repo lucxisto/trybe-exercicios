@@ -3,5 +3,7 @@ const b = 2;
 const c = 3;
 
 if(a % 2 == 0 || b % 2 == 0 || c % 2 == 0){
-  console.log(true);
+  console.log('Há um numero pár? ' + true);
+}else{
+  console.log('Há um numero pár? ' + false);
 }
