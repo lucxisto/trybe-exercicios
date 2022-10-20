@@ -1,12 +1,17 @@
-const a = 0;
+const a = 45;
 const b = 45;
-const c = 500;
+const c = 90;
+
+
+//Parte 1
 
 // if( a > b){
 //   console.log(a + " é maior que " + b);
 // }else{
 //   console.log(b + " é maior que " + a);
 // }
+
+//Parte 2
 
 // if(a > b && a > c){
 //   console.log(a + ' é o maior número');
@@ -16,10 +21,20 @@ const c = 500;
 //   console.log(c + ' é o maior número');
 // }
 
-if(a > 0){
-  console.log('positive');
-}else if(a < 0){
-  console.log('negative');
+//Parte 3
+
+// if(a > 0){
+//   console.log('positive');
+// }else if(a < 0){
+//   console.log('negative');
+// }else{
+//   console.log('zero');
+// }
+
+//Parte 4
+
+if (a > 0 && b > 0 && c > 0 && a + b + c == 180){
+  console.log(true);
 }else{
-  console.log('zero');
+  console.log('Erro! esse não é um triangulo')
 }
