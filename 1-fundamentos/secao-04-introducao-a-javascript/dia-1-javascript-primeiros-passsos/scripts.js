@@ -3,21 +3,16 @@ a = 8;
 b = 18;
 
 //Programa de Adição
-let soma = a + b;
-console.log(soma);
+console.log("Soma: " + (a + b));
 
 //Programa de Subtração
-let subtracao = a - b;
-console.log(subtracao);
+console.log("Subtração: " + (a - b));
 
 //Programa de Multiplicação
-let multiplicacao = a * b;
-console.log(multiplicacao);
+console.log("Multiplicação: " + (a * b));
 
 //Programa de Divisão
-let divisao = a / b;
-console.log(divisao)
+console.log("Divisão: " + (a / b))
 
 //Programa de Módulo
-let modulo = a % b;
-console.log(modulo);
+console.log("Módulo: " + (a % b));
