@@ -13,3 +13,7 @@ console.log(subtracao);
 //Programa de Multiplicação
 let multiplicacao = a * b;
 console.log(multiplicacao);
+
+//Programa de Divisão
+let divisao = a / b;
+console.log(divisao)
