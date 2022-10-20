@@ -7,3 +7,9 @@ if(a % 2 == 0 || b % 2 == 0 || c % 2 == 0){
 }else{
   console.log('Há um numero pár? ' + false);
 }
+
+if(a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0){
+  console.log('Há um numero impár? ' + true);
+}else{
+  console.log('Há um numero impár? ' + false);
+}
