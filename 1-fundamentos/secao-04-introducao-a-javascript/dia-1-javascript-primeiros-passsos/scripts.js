@@ -17,3 +17,7 @@ console.log(multiplicacao);
 //Programa de Divisão
 let divisao = a / b;
 console.log(divisao)
+
+//Programa de Módulo
+let modulo = a % b;
+console.log(modulo);
