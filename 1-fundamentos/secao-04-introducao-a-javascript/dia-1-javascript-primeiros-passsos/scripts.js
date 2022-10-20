@@ -1,19 +1,11 @@
-const peopleSituation = 'lisa';
+let a, b;
+a = 8;
+b = 18;
 
-switch(peopleSituation){
-  case "aprovada":
-    console.log('Parabéns, você foi aprovada(o)!');
-  break
+//Programa de Adição
+let soma = a + b;
+console.log(soma);
 
-  case "lista":
-    console.log('Você está na nossa lista de espera');
-  break
-
-  case "reprovada":
-    console.log('Você foi reprovada(o)');
-  break
-
-  default:
-    console.log('Informação Incorreta');
-}
-  
+//Programa de Subtração
+let subtracao = a - b;
+console.log(subtracao);
