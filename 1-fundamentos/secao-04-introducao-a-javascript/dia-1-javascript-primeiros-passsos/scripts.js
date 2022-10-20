@@ -1,6 +1,8 @@
-const base = 5;
-const height = 8;
-const area = base * height;
-const perimeter = (base * 2)+(height * 2);
-
-console.log(area, perimeter); 
+const nota = 18;
+if (nota >= 80){
+  console.log("Parabéns, Você foi aprovado(a)!")
+}else if(nota < 80 && nota >= 60){
+  console.log("Você está na nossa lista de espera!")
+}else{
+  console.log("Você foi reprovado(a)!")
+}
