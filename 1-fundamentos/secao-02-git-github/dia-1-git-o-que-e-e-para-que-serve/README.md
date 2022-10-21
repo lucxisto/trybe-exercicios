@@ -1,5 +1,5 @@
 # Fundamentos
-### Seção 2 - Git
+### Seção 2 - Git & GitHub
 ##### Dia 1 - Git o que é e para que serve?
 
 ##### Exercicios do dia
