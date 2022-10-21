@@ -6,4 +6,9 @@ for(let i = 0; i < numbers.length; i++){
 }
 media = soma/(numbers.length-1)
 
+if(media > 20){
+  console.log('numero maior que 20');
+}else{
+  console.log('numero menor ou igual a 20');
+}
 console.log(media);
