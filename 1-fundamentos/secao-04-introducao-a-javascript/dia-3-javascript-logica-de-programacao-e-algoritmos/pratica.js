@@ -15,3 +15,7 @@
 //   inverseWord += wordArray[i];
 // }
 // console.log(inverseWord);
+
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+
