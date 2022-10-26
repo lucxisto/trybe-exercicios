@@ -14,3 +14,18 @@ function checkPalindrome(word){
 
 console.log(checkPalindrome('arara'));
 
+//Parte 2
+function checkBiggerIndex(){
+  let array = [2, 3, 6, 7, 10, 1];
+  let controlVar = 0;
+  let indexControlVar = 0 ;
+  for (const key in array) {
+    if(array[key] > controlVar){
+      controlVar = array[key];
+      indexControlVar = key;
+    }
+  }
+  return indexControlVar;
+}
+
+console.log(checkBiggerIndex());
