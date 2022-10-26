@@ -30,6 +30,11 @@ let moradores = {
 };
 
 //Parte 1
-console.log(`O morador do Bloco 2 de nome ${moradores['blocoDois'][1]['nome']} ${moradores['blocoDois'][1]['sobrenome']} mora no ${moradores['blocoDois'][1]['andar']}º andar, apartamento ${moradores['blocoDois'][1]['apartamento']}`);
+//console.log(`O morador do Bloco 2 de nome ${moradores['blocoDois'][1]['nome']} ${moradores['blocoDois'][1]['sobrenome']} mora no ${moradores['blocoDois'][1]['andar']}º andar, apartamento ${moradores['blocoDois'][1]['apartamento']}`);
 
 //Parte 2
+for (const key in moradores) {
+  for(let i = 0; i < key.length; i++){
+    console.log(moradores[key][i]['nome'] + ' ' + moradores[key][i].sobrenome);
+  }
+}
