@@ -15,8 +15,8 @@ function checkPalindrome(word){
 console.log(checkPalindrome('arara'));
 
 //Parte 2
-function checkBiggerIndex(){
-  let array = [2, 3, 6, 7, 10, 1];
+let array1 = [2, 3, 6, 7, 10, 1];
+function checkBiggerIndex(array){
   let controlVar = 0;
   let indexControlVar = 0 ;
   for (const key in array) {
@@ -28,11 +28,11 @@ function checkBiggerIndex(){
   return indexControlVar;
 }
 
-console.log(checkBiggerIndex());
+console.log(checkBiggerIndex(array1));
 
 //Parte 3
-function checkLowerIndex(){
-  let array = [2, 4, 6, 7, 10, 0, -3];
+let array2 = [2, 4, 6, 7, 10, 0, -3];
+function checkLowerIndex(array){
   let controlVar = array[0];
   let indexControlVar = 0 ;
   for (const key in array) {
@@ -43,11 +43,11 @@ function checkLowerIndex(){
   }
   return indexControlVar;
 }
-console.log(checkLowerIndex());
+console.log(checkLowerIndex(array2));
 
 //Parte 4
-function checkNameLength(){
-  let names = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+let names = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+function checkNameLength(names){
   let controlVar = '';
   for(let i = 0; i < names.length; i++){
     if(names[i].length > controlVar.length){
@@ -56,4 +56,27 @@ function checkNameLength(){
   }
   return controlVar;
 }
-console.log(checkNameLength());
+console.log(checkNameLength(names));
+
+//Parte 5
+let array3 = [2, 3, 2, 5, 8, 2, 3];
+function checkDouble(array){
+  let isDouble = 0;
+  let doubled = 0;
+  let wichNumberRepeated = 0;
+  for(let i = 0; i < array.length; i++){
+    for(let x = 0; x < array.length; x++){
+      if(array[i] == array[x]){
+        isDouble++;
+      }
+    }
+    if(isDouble > doubled){
+      doubled = isDouble;
+      wichNumberRepeated = array[i];
+    }
+    isDouble = 0;
+  }
+  return wichNumberRepeated;
+}
+
+console.log(checkDouble(array3));
