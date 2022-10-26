@@ -34,7 +34,7 @@ let moradores = {
 
 //Parte 2
 for (const key in moradores) {
-  for(let i = 0; i < key.length; i++){
+  for(let i = 0; i < moradores[key].length; i++){
     console.log(moradores[key][i]['nome'] + ' ' + moradores[key][i].sobrenome);
   }
 }
