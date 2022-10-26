@@ -90,3 +90,24 @@ function sumAll(number){
   return sum;
 }
 console.log(sumAll(n));
+
+//Parte 7
+function checkEnd(word, ending){
+  let arrayWord = word.split('');
+  let arrayEnding = ending.split('');
+  let reverseWord = arrayWord.reverse();
+  let reverseEnding = arrayEnding.reverse();
+  let equalLetters = 0;
+  for(let i = 0; i < reverseEnding.length; i++){
+    if(reverseWord[i] === reverseEnding[i]){
+      equalLetters++
+    }
+  }
+  if(equalLetters == reverseEnding.length){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(checkEnd('joãoFernando', 'fernan'));
