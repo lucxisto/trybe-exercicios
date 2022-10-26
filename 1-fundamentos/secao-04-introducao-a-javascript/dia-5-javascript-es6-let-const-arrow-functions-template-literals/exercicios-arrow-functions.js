@@ -9,7 +9,16 @@ console.log(numeroAleatorio());
 //   return `Olá, ${nome}!`
 // }
 
-const hello = (nome) => `Olá, ${nome}`;
+const hello = nome => `Olá, ${nome}`;
 
 let nome = 'Ivan';
 console.log(hello(nome));
+
+// function nomeCompleto(nome, sobrenome) {
+//   return `${nome} ${sobrenome}`
+// }
+
+const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`;
+
+let sobrenome = 'Pires';
+console.log(nomeCompleto(nome, sobrenome));
