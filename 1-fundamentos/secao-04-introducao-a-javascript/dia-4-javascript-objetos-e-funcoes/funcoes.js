@@ -45,3 +45,15 @@ function checkLowerIndex(){
 }
 console.log(checkLowerIndex());
 
+//Parte 4
+function checkNameLength(){
+  let names = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+  let controlVar = '';
+  for(let i = 0; i < names.length; i++){
+    if(names[i].length > controlVar.length){
+      controlVar = names[i];
+    }
+  }
+  return controlVar;
+}
+console.log(checkNameLength());
