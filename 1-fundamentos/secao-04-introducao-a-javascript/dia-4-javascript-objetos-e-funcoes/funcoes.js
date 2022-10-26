@@ -78,5 +78,15 @@ function checkDouble(array){
   }
   return wichNumberRepeated;
 }
-
 console.log(checkDouble(array3));
+
+//Parte 6
+let n = 5;
+function sumAll(number){
+  let sum = 0;
+  for(let i = 0; i <=  number; i++){
+    sum += i;
+  }
+  return sum;
+}
+console.log(sumAll(n));
