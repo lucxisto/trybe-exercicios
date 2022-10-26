@@ -29,3 +29,19 @@ function checkBiggerIndex(){
 }
 
 console.log(checkBiggerIndex());
+
+//Parte 3
+function checkLowerIndex(){
+  let array = [2, 4, 6, 7, 10, 0, -3];
+  let controlVar = array[0];
+  let indexControlVar = 0 ;
+  for (const key in array) {
+    if(array[key] < controlVar){
+      controlVar = array[key];
+      indexControlVar = key;
+    }
+  }
+  return indexControlVar;
+}
+console.log(checkLowerIndex());
+
