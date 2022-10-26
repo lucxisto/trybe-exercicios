@@ -10,3 +10,6 @@ let leitor = {
     },
   ],
 };
+
+//Parte 1
+console.log(`O Livro favorito de ${leitor.nome} ${leitor.sobrenome} se chama  '${leitor.livrosFavoritos[0].titulo}'`);
