@@ -1,5 +1,5 @@
 const circleArea = (radius) => {
-  const pi = 3.14;
+  const pi = Math.PI;
   return `Essa é a Área do círculo: ${(radius**2) * pi}`;
 }
 console.log(circleArea(3));
