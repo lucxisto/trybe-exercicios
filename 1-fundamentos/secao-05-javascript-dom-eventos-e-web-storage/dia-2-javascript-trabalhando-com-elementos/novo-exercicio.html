@@ -80,6 +80,15 @@
       imageSmallLeftSection.src = 'https://picsum.photos/200';
       imageSmallLeftSection.className = 'small-image';
       sectionLeftContent.appendChild(imageSmallLeftSection);
+      const list = document.createElement('ul');
+      const numbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for(let i of numbers){
+        const numberListItem = document.createElement('li');
+        numberListItem.innerText = i;
+        list.appendChild(numberListItem);
+      }
+      console.log(numbers, list);
+      sectionRightContent.appendChild(list);
     </script>
   </body>
 </html>
