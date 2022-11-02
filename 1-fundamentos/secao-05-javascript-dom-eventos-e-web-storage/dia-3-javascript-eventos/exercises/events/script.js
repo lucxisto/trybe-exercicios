@@ -37,9 +37,24 @@ const createButton = (someString) => {
   buttonsDiv.appendChild(button);
 }
 
+const spotlightHoliday = () => {
+  const button = document.querySelector('#btn-holiday');
+  const holidays = document.getElementsByClassName('holiday');
+  const oldColor = 'rgb(238,238,238)';
+  const newColor = 'lightgreen';
+  button.addEventListener('click', () => {
+    for(let i = 0; i < holidays.length; i++) {
+      if(holidays[i].style.backgroundColor === newColor) {
+        holidays[i].style.backgroundColor = oldColor;
+      } else {
+        holidays[i].style.backgroundColor = newColor;
+      }
+    }
+  });
 
+}
 
 createDecember(decemberDaysList);
 createDaysOfTheWeek();
 createButton('Feriados');
-// Escreva seu código abaixo.
+spotlightHoliday();
