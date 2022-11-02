@@ -64,7 +64,12 @@
       const mainTag = document.createElement('main');
       mainTag.className = 'main-content';
       body.appendChild(mainTag);
-      
+      const sectionCenterContent = document.createElement('section');
+      sectionCenterContent.className = 'center-content';
+      mainTag.appendChild(sectionCenterContent);
+      const paragraphOfSection = document.createElement('p');
+      paragraphOfSection.innerHTML = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nihil, ratione ipsam vel eos asperiores commodi labore expedita in voluptatem, voluptas aspernatur iure placeat enim unde iusto ullam magni nisi.';
+      sectionCenterContent.appendChild(paragraphOfSection);
     </script>
   </body>
 </html>
