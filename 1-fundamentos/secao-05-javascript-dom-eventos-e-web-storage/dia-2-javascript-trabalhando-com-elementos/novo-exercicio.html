@@ -72,9 +72,14 @@
       sectionCenterContent.appendChild(paragraphOfSection);
       const sectionLeftContent = document.createElement('section');
         sectionLeftContent.className = 'left-content';
+      body.appendChild(sectionLeftContent);
       const sectionRightContent = document.createElement('section');
         sectionRightContent.className = 'right-content';
-
+      body.appendChild(sectionRightContent);
+      const imageSmallLeftSection = document.createElement('img');
+      imageSmallLeftSection.src = 'https://picsum.photos/200';
+      imageSmallLeftSection.className = 'small-image';
+      sectionLeftContent.appendChild(imageSmallLeftSection);
     </script>
   </body>
 </html>
