@@ -57,9 +57,14 @@
   </head>
   <body>
     <script>
+      const body = document.body;
       const exercisesHOne = document.createElement('h1');
       exercisesHOne.innerHTML = 'Exercício - JavaScript DOM';
-      document.body.appendChild(exercisesHOne);
+      body.appendChild(exercisesHOne);
+      const mainTag = document.createElement('main');
+      mainTag.className = 'main-content';
+      body.appendChild(mainTag);
+      
     </script>
   </body>
 </html>
