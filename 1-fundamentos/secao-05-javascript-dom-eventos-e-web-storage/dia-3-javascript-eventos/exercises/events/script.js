@@ -69,7 +69,7 @@ const itsFriday = () => {
     } 
   });
 }
-
+    
 createDecember(decemberDaysList);
 createDaysOfTheWeek();
 createButton('Feriados', 'btn-holiday');
