@@ -29,10 +29,10 @@ const createDecember = (arrayDays) => {
   }
 }
 
-const createButton = (someString) => {
+const createButton = (someString, buttonID) => {
   const buttonsDiv = document.querySelector('.buttons-container');
-  button = document.createElement('button');
-  button.setAttribute('id', 'btn-holiday');
+  const button = document.createElement('button');
+  button.setAttribute('id', buttonID);
   button.innerText = someString;
   buttonsDiv.appendChild(button);
 }
@@ -56,5 +56,6 @@ const spotlightHoliday = () => {
 
 createDecember(decemberDaysList);
 createDaysOfTheWeek();
-createButton('Feriados');
+createButton('Feriados', 'btn-holiday');
+createButton('Sexta-Feira', 'btn-friday');
 spotlightHoliday();
