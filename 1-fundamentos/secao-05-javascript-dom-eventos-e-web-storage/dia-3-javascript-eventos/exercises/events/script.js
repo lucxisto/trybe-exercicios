@@ -69,10 +69,29 @@ const itsFriday = () => {
     } 
   });
 }
-    
+
+const eventToDay = () => {
+  const allDays = document.querySelectorAll('.day');
+  for (let i = 0; i < allDays.length; i++) {
+    allDays[i].addEventListener('mouseover', (event) => {
+      const thisTarget  = event.target;
+      thisTarget.style.fontSize = '35px';
+      thisTarget.style.fontWeight = '300';
+    });
+  }
+  for (let i = 0; i < allDays.length; i++) {
+    allDays[i].addEventListener('mouseout', (event) => {
+      const thisTarget  = event.target;
+      thisTarget.style.fontSize = '20px';
+      thisTarget.style.fontWeight = '200';
+    });
+  }
+}
+
 createDecember(decemberDaysList);
 createDaysOfTheWeek();
 createButton('Feriados', 'btn-holiday');
 createButton('Sexta-Feira', 'btn-friday');
 spotlightHoliday();
 itsFriday();
+eventToDay();
