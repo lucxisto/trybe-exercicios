@@ -51,7 +51,23 @@ const spotlightHoliday = () => {
       }
     }
   });
+}
 
+const itsFriday = () => {
+  const button = document.querySelector('#btn-friday');
+  const friday = document.getElementsByClassName('friday');
+  const stringFriday = 'Sexta-Feira';
+  let monthDay = []; 
+  button.addEventListener('click', () => {
+    for (let i = 0; i < friday.length; i++) {
+      if(friday[i].innerHTML === stringFriday){
+        friday[i].innerHTML = monthDay[i];
+      } else {
+        monthDay.push(friday[i].innerHTML);
+        friday[i].innerHTML = stringFriday;
+      }
+    } 
+  });
 }
 
 createDecember(decemberDaysList);
@@ -59,3 +75,4 @@ createDaysOfTheWeek();
 createButton('Feriados', 'btn-holiday');
 createButton('Sexta-Feira', 'btn-friday');
 spotlightHoliday();
+itsFriday();
