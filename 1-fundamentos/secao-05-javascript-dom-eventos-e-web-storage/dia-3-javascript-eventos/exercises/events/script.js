@@ -88,6 +88,13 @@ const eventToDay = () => {
   }
 }
 
+const addTask = (task) => {
+  const taskContainer = document.querySelector('.my-tasks');
+  const customTask = document.createElement('span');
+  customTask.innerHTML = task;
+  taskContainer.appendChild(customTask);
+}
+
 createDecember(decemberDaysList);
 createDaysOfTheWeek();
 createButton('Feriados', 'btn-holiday');
@@ -95,3 +102,4 @@ createButton('Sexta-Feira', 'btn-friday');
 spotlightHoliday();
 itsFriday();
 eventToDay();
+addTask('Cozinhar')
