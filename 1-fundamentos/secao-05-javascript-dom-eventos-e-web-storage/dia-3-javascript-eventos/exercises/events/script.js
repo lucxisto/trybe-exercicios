@@ -95,6 +95,13 @@ const addTask = (task) => {
   taskContainer.appendChild(customTask);
 }
 
+const addTaskColor = (color) => {
+  const taskContainer = document.querySelector('.my-tasks');
+  const taskColorLabel = document.createElement('div');
+  taskColorLabel.className = 'task';
+  taskColorLabel.style.backgroundColor = color;
+  taskContainer.appendChild(taskColorLabel);
+}
 createDecember(decemberDaysList);
 createDaysOfTheWeek();
 createButton('Feriados', 'btn-holiday');
@@ -102,4 +109,5 @@ createButton('Sexta-Feira', 'btn-friday');
 spotlightHoliday();
 itsFriday();
 eventToDay();
-addTask('Cozinhar')
+addTask('Cozinhar');
+addTaskColor('orange');
