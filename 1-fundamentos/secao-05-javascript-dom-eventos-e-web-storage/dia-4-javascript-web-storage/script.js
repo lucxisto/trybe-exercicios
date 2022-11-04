@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
   const main = document.querySelector('#this-main');
-  main.style.backgroundColor = localStorage.getItem('backgroudColor');
+  main.style.backgroundColor = localStorage.getItem('backgroundColor')
   main.style.color = localStorage.getItem('color');
   main.style.fontSize = localStorage.getItem('fontSize');
   main.style.lineHeight = localStorage.getItem('lineHeight');
   main.style.fontFamily = localStorage.getItem('fontFamily');
+  
 });
 
 const changeBackground = () => {
