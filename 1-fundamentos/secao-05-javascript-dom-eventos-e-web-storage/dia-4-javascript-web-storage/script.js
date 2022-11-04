@@ -1,3 +1,12 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const main = document.querySelector('#this-main');
+  main.style.backgroundColor = localStorage.getItem('backgroudColor');
+  main.style.color = localStorage.getItem('color');
+  main.style.fontSize = localStorage.getItem('fontSize');
+  main.style.lineHeight = localStorage.getItem('lineHeight');
+  main.style.fontFamily = localStorage.getItem('fontFamily');
+});
+
 const changeBackground = () => {
   const main = document.querySelector('#this-main');
   const bgButtons = document.querySelectorAll('.background');
@@ -42,18 +51,19 @@ const changeLineHeight = () => {
   }
 }
 
-// const changeFontSize = () => {
-//   const main = document.querySelector('#this-main');
-//   const sizeButtons = document.querySelectorAll('.font-size');
-//   for (let i = 0; i < sizeButtons.length; i++) {
-//     sizeButtons[i].addEventListener('click', (event) => {
-//       main.style.fontSize = event.target.innerText;
-//       localStorage.setItem('fontSize', event.target.innerText);
-//     });
-//   }
-// }
+const changeFontFamily = () => {
+  const main = document.querySelector('#this-main');
+  const familyButtons = document.querySelectorAll('.font-family');
+  for (let i = 0; i < familyButtons.length; i++) {
+    familyButtons[i].addEventListener('click', (event) => {
+      main.style.fontFamily = event.target.innerText;
+      localStorage.setItem('fontFamily', event.target.innerText);
+    });
+  }
+}
 
 changeBackground();
 changeColor();
 changeFontSize();
 changeLineHeight();
+changeFontFamily();
