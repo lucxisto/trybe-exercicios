@@ -116,6 +116,23 @@ const selectTask = () => {
   }
 }
 
+const addTaskToDay = () => {
+  const taskSelected = document.getElementsByClassName('task selected');
+  const days = document.querySelector('#days');
+  const taskDiv = document.querySelector('.task');
+  const taskColor = taskDiv.style.backgroundColor;
+  const defaultColor = 'rgb(119,119,119)';
+  days.addEventListener('click', (event) => {
+    let dayColor = event.target.style.color;
+    if (taskSelected.length > 0 && dayColor !== taskColor) {
+      event.target.style.color = taskColor;
+    } else if (dayColor === taskColor){
+      event.target.style.color = defaultColor;
+    }
+  })
+}
+
+
 createDecember(decemberDaysList);
 createDaysOfTheWeek();
 createButton('Feriados', 'btn-holiday');
@@ -126,3 +143,4 @@ eventToDay();
 addTask('Cozinhar');
 addTaskColor('orange');
 selectTask();
+addTaskToDay();
