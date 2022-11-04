@@ -132,6 +132,29 @@ const addTaskToDay = () => {
   })
 }
 
+const addNewTask = () => {
+  const addTaskButton = document.querySelector('#btn-add');
+  const taskInput = document.querySelector('#task-input');
+  addTaskButton.addEventListener('click', () =>{
+    let inputValue = taskInput.value;
+    if (inputValue === ''){
+      window.alert('Erro ao adicionar tarefa!');
+    } else {
+      addTask(` ${inputValue} `);
+    }
+  });
+  taskInput.addEventListener('keyup', (event) => {
+    let inputValue = taskInput.value;
+    if (event.key === 'Enter'){
+      if (inputValue === ''){
+        window.alert('Erro ao adicionar tarefa!');
+      } else {
+        addTask(` ${inputValue} `);
+      }
+    }
+  });
+}
+
 
 createDecember(decemberDaysList);
 createDaysOfTheWeek();
@@ -144,3 +167,4 @@ addTask('Cozinhar');
 addTaskColor('orange');
 selectTask();
 addTaskToDay();
+addNewTask();
