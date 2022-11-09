@@ -1,4 +1,4 @@
-const formButton = document.getElementById('send-form');
-formButton.addEventListener('click', (event) => {
+const formSendButton = document.getElementById('send-form');
+formSendButton.addEventListener('click', (event) => {
   event.preventDefault();
 });
