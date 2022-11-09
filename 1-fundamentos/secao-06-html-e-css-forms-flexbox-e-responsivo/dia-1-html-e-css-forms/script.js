@@ -10,3 +10,8 @@ const checkPermission = () => {
   const permissionCheckBox = document.getElementById('permissao-imagens');
   return permissionCheckBox.checked;
 };
+
+const verifyMinCharacters = (id) => {
+  const verifyingField = document.getElementById(id);
+  return verifyingField.length < 10 ? true : false;
+};
