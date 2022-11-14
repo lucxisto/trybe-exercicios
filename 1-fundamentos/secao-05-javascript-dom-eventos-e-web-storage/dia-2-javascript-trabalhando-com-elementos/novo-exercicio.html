@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const body = document.body;
+      const exercisesHOne = document.createElement('h1');
+        exercisesHOne.innerHTML = 'Exercício - JavaScript DOM';
+      body.appendChild(exercisesHOne);
+      const mainTag = document.createElement('main');
+        mainTag.className = 'main-content';
+      body.appendChild(mainTag);
+      const sectionCenterContent = document.createElement('section');
+        sectionCenterContent.className = 'center-content';
+      mainTag.appendChild(sectionCenterContent);
+      const paragraphOfSection = document.createElement('p');
+        paragraphOfSection.innerHTML = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nihil, ratione ipsam vel eos asperiores commodi labore expedita in voluptatem, voluptas aspernatur iure placeat enim unde iusto ullam magni nisi.';
+      sectionCenterContent.appendChild(paragraphOfSection);
+      const sectionLeftContent = document.createElement('section');
+        sectionLeftContent.className = 'left-content';
+      body.appendChild(sectionLeftContent);
+      const sectionRightContent = document.createElement('section');
+        sectionRightContent.className = 'right-content';
+      body.appendChild(sectionRightContent);
+      const imageSmallLeftSection = document.createElement('img');
+      imageSmallLeftSection.src = 'https://picsum.photos/200';
+      imageSmallLeftSection.className = 'small-image';
+      sectionLeftContent.appendChild(imageSmallLeftSection);
+      const list = document.createElement('ul');
+      const numbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for(let i of numbers){
+        const numberListItem = document.createElement('li');
+        numberListItem.innerText = i;
+        list.appendChild(numberListItem);
+      }
+      console.log(numbers, list);
+      sectionRightContent.appendChild(list);
+      const titleH3One = document.createElement('h3');
+      const titleH3Two = document.createElement('h3');
+      const titleH3Three = document.createElement('h3');
+      mainTag.appendChild(titleH3One);
+      mainTag.appendChild(titleH3Two);
+      mainTag.appendChild(titleH3Three);
+      exercisesHOne.className = 'title';
+      titleH3One.className = 'description';
+      titleH3Two.className = 'description';
+      titleH3Three.className = 'description';
+      body.removeChild(sectionLeftContent);
+      sectionRightContent.style = 'margin: auto';
+      sectionCenterContent.style.backgroundColor = 'green';
+      list.removeChild(list.lastElementChild);
+      list.removeChild(list.lastElementChild);
+    </script>
+  </body>
+</html>

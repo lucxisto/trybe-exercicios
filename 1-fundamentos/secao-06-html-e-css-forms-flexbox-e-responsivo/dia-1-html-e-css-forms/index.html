@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>TrybeTrip</h1>
+    </header>
+    <form action="">
+      <div>
+        <label for="input-nome">Nome Completo</label>
+        <input type="text" name="complete-name" id="input-nome" minlength="10" maxlength="40" placeholder="Digite seu nome completo">
+      </div>
+      <div>
+        <label for="input-email">E-mail</label>
+        <input type="email" name="email" id="input-email" minlength="10" maxlength="50" placeholder="Digite seu E-mail">
+      </div>
+      <div>
+        <input type="radio" name="prefered-destiny" id="city"><label for="city">Cidade</label>
+        <input type="radio" name="prefered-destiny" id="field"><label for="field">Campo</label>
+        <input type="radio" name="prefered-destiny" id="beach"><label for="beach">Praia</label>
+        <input type="radio" name="prefered-destiny" id="montain"><label for="montain">Montanha</label>
+      </div>
+      <div>
+        <textarea name="reason-to-win" id="motivo" cols="30" rows="10" maxlength="500" placeholder="Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?"></textarea>
+      </div>
+      <div>
+        <label for="data-viagem">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" name="trip-date" id="data-viagem">
+      </div>
+      <div>
+        <input type="checkbox" name="oportunities" id="oportunidades"><label for="oportunidades">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label> </br>
+        <input type="checkbox" name="image-permission" id="permissao-imagens"><label for="permissao-imagens">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+      </div>
+      <button type="submit" id="send-form" disabled>Enviar Fomulário</button>
+      <button type="reset" id="reset-form">Limpar Fomulário</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
