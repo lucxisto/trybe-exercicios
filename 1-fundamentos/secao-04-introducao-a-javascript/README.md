@@ -1,4 +1,4 @@
-# Seção 3 - Introdução a HTML & CSS
+# Seção 4 - Introdução a JavaScript
 
 Seção voltada para nos ensinar as linguagens de marcação HTML & CSS.
 
