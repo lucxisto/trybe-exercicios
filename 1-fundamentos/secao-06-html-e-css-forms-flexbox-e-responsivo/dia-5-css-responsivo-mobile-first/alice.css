@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 20px;
+    font-size: medium;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  
+  .main-content h1 {
+    font-size: x-large;
+  }
+}
