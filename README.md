@@ -133,7 +133,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 10.1 - Projeto - App de Receitas
 
-## Back-end pause_button
+## Back-end :pause_button:
 
 ##### Bloco 1: Docker: Utilizando Containers
 
@@ -231,7 +231,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 14.1 - VPS
 - [ ] 14.2 - Bonus
 
-## Ciência da Computação pause_button
+## Ciência da Computação :pause_button:
 
 ##### Bloco 1: Introdução à Python
 
