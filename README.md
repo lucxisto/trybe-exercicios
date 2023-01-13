@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web 
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: Unix & Bash 
 
@@ -69,7 +69,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destruturing e mais_
 - [X] 8-6: _Projeto - Zoo Functions_
 
-## Front-end arrow_forward :hourglass_flowing_sand:
+## Front-end :hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução ao Frontend e Javascript Assíncrono
 
@@ -133,7 +133,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 10.1 - Projeto - App de Receitas
 
-## Back-end :pause_button:
+## Back-end 
 
 ##### Bloco 1: Docker: Utilizando Containers
 
@@ -231,7 +231,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 14.1 - VPS
 - [ ] 14.2 - Bonus
 
-## Ciência da Computação :pause_button:
+## Ciência da Computação 
 
 ##### Bloco 1: Introdução à Python
 
