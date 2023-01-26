@@ -6,6 +6,8 @@ class Button extends React.Component {
     this.state = {
       numeroDeCliques: 0,
     };
+
+    
   };
 
   changButtonColor = (clicksNumber) => clicksNumber % 2 === 0 ? 'green' : 'white';
